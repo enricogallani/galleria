@@ -1,7 +1,56 @@
 <resources>
     <string name="app_name">Paulinho Delivery</string>
     <string name="title_activity_home">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Início</string>
+    <string name="title_find">Busca</string>
+    <string name="title_profile">Perfil</string>
+    <string name="empty_user">Digite um usuário!</string>
+    <string name="empty_password">Digite a senha!</string>
+    <string name="empty_email">Digite o email!</string>
+    <string name="incorrect_value">Usuário ou senha incorretos!</string>
+    <string name="empty_name">Digite o nome!</string>
+    <string name="correct_value">Usuário cadastrado com sucesso!</string>
+    <string name="find">Buscar</string>
+    <string name="error_map">Erro ao abrir o mapa.</string>
+    <string name="error_wpp">Whatsapp não instalado.</string>
+    <string name="restaurant_detail">%1$s - %2$s - %3$s</string>
+    <string name="restaurant_activity_detail">%1$s - %2$s km"</string>
+    <string name="avaliation">Avaliação %1$s</string>
+    <string name="selection">Pedido - Selecione</string>
+    <string name="problem">Problema no pedido</string>
+    <string name="order">Pedido - #%1$s</string>
+    <string name="value_total">Valor Total R$ %1$f</string>
+    <string name="picture">ENVIAR FOTO</string>
+    <string name="send_problem">ENVIAR PROBLEMA</string>
+    <string name="pic_problem">Se necessário, nos envie uma foto do pedido.</string>
+    <string name="finish_order">Seu pedido foi realizado com sucesso!</string>
+    <string name="what_order">Explique o que aconteceu</string>
+    <string name="prod_number">Número do Produto</string>
+    <string name="mcdonalds">McDonalds</string>
+    <string name="bigmac">BigMac</string>
+    <string name="total_value50">Valor Total: R$50,00</string>
+    <string name="share">Compartilhar pedido</string>
+    <string name="locate">Rastrear pedido</string>
+    <string name="password">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">CADASTRO</string>
+    <string name="order_finish">FINALIZAR PEDIDO</string>
+    <string name="order_35">Lanche - 3.5km</string>
+    <string name="avaliation_49">Avaliação: 4.9</string>
+    <string name="oferts">Ofertas</string>
+    <string name="name">Nome</string>
+    <string name="sign">CADASTRAR</string>
+    <string name="restaurant">Restaurante</string>
+    <string name="hello">Olá, Enrico Gallani</string>
+    <string name="shop">Lojas em destaque</string>
+    <string name="report">REPORTAR PROBLEMA</string>
+    <string name="burguer">X-Burguer</string>
+    <string name="price">R$23,34</string>
+    <string name="sushi">Sushi</string>
+    <string name="five_52">5.0 - Lanche - 5.2km</string>
+
+
+    model.getStats() + " - " + model.getType() + " - " + model.getDistance()
+
 </resources>

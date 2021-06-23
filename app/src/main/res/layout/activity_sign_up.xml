@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/primary"
     android:padding="24dp"
-    tools:context=".SignUpActivity">
+    tools:context=".ui.SignUpActivity">
 
     <ImageView
         android:id="@+id/logo"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
-        android:hint="E-mail"
+        android:hint="@string/email"
         android:textColor="#ffffff"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         tools:layout_editor_absoluteX="24dp" />
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="4dp"
-        android:hint="Nome"
+        android:hint="@string/name"
         android:textColor="#ffffff"
         app:layout_constraintTop_toBottomOf="@+id/user"
         tools:layout_editor_absoluteX="24dp" />
@@ -42,7 +42,7 @@
         android:layout_height="60dp"
         android:id="@+id/password"
         android:layout_marginTop="4dp"
-        android:hint="Senha"
+        android:hint="@string/password"
         android:textColor="#ffffff"
         app:layout_constraintTop_toBottomOf="@+id/name"/>
 
@@ -51,7 +51,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="#FDFD96"
-        android:text="CADASTRAR"
+        android:text="@string/sign"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/password"
         android:id="@+id/btSignup" />

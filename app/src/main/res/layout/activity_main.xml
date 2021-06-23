@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/primary"
     android:layout_gravity="center"
-    android:theme="@style/Theme.Design.NoActionBar"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"

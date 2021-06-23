@@ -1,4 +1,4 @@
-package com.paulinhodelivery.ui.notifications;
+package com.paulinhodelivery.ui.profile;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package com.paulinhodelivery;
+package com.paulinhodelivery.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
+import com.paulinhodelivery.R;
 import com.paulinhodelivery.data.User;
 
 public class SignUpActivity extends AppCompatActivity {
@@ -17,6 +18,8 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
+        getSupportActionBar().hide();
 
         EditText etUser = findViewById(R.id.user);
         EditText etPassword = findViewById(R.id.password);
@@ -29,21 +32,21 @@ public class SignUpActivity extends AppCompatActivity {
             String nameTxt = etName.getText().toString();
 
             if (userTxt.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite o e-mail!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.empty_email), Toast.LENGTH_LONG).show();
                 return;
             }
 
             if (nameTxt.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite o nome!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.empty_name), Toast.LENGTH_LONG).show();
                 return;
             }
 
             if (passTxt.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite a senha!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.empty_password), Toast.LENGTH_LONG).show();
                 return;
             }
 
-            Toast.makeText(getApplicationContext(), "Usuário cadastrado com sucesso!!!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.correct_value), Toast.LENGTH_LONG).show();
         });
     }
 }
