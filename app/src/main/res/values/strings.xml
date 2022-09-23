@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Paulinho Delivery</string>
+    <string name="app_name">Galleria</string>
     <string name="title_activity_home">MainActivity</string>
-    <string name="title_home">Início</string>
+    <string name="title_recommended">Recomendados</string>
     <string name="title_find">Busca</string>
     <string name="title_profile">Perfil</string>
     <string name="empty_user">Digite um usuário!</string>
@@ -16,7 +16,7 @@
     <string name="restaurant_detail">%1$s - %2$s - %3$s</string>
     <string name="restaurant_activity_detail">%1$s - %2$s km"</string>
     <string name="avaliation">Avaliação %1$s</string>
-    <string name="selection">Pedido - Selecione</string>
+    <string name="selection">Museu</string>
     <string name="problem">Problema no pedido</string>
     <string name="order">Pedido - #%1$s</string>
     <string name="value_total">Valor Total R$ %1$f</string>
@@ -26,7 +26,6 @@
     <string name="finish_order">Seu pedido foi realizado com sucesso!</string>
     <string name="what_order">Explique o que aconteceu</string>
     <string name="prod_number">Número do Produto</string>
-    <string name="mcdonalds">McDonalds</string>
     <string name="bigmac">BigMac</string>
     <string name="total_value50">Valor Total: R$50,00</string>
     <string name="share">Compartilhar pedido</string>
@@ -45,12 +44,9 @@
     <string name="hello">Olá, Enrico Gallani</string>
     <string name="shop">Lojas em destaque</string>
     <string name="report">REPORTAR PROBLEMA</string>
-    <string name="burguer">X-Burguer</string>
+    <string name="burguer">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</string>
     <string name="price">R$23,34</string>
     <string name="sushi">Sushi</string>
     <string name="five_52">5.0 - Lanche - 5.2km</string>
-
-
-    model.getStats() + " - " + model.getType() + " - " + model.getDistance()
 
 </resources>

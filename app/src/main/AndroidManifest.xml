@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.paulinhodelivery">
+    package="com.galleria">
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,16 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
-        <activity android:name=".ui.ReportProblemOrderActivity"></activity>
-        <activity android:name=".ui.FinishedOrderActivity" />
-        <activity android:name=".ui.OrderActivity" />
-        <activity android:name=".ui.RestaurantActivity" />
+        <activity android:name="com.galleria.ui.ReportProblemOrderActivity"></activity>
+        <activity android:name="com.galleria.ui.MuseumActivity" />
         <activity
-            android:name=".ui.HomeActivity"
+            android:name="com.galleria.ui.HomeActivity"
             android:label="@string/title_activity_home" />
-        <activity android:name=".ui.SignUpActivity" />
-        <activity android:name=".ui.LoginActivity" />
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="com.galleria.ui.SignUpActivity" />
+        <activity android:name="com.galleria.ui.LoginActivity" />
+        <activity android:name="com.galleria.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

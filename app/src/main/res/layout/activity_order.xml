@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
-    tools:context=".ui.RestaurantActivity">
+    tools:context=".ui.MuseumActivity">
 
     <ImageView
         android:id="@+id/food"
@@ -21,7 +21,6 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mcdonalds"
         android:textColor="@color/white"
         android:textSize="22sp"
         android:layout_marginTop="12dp"
