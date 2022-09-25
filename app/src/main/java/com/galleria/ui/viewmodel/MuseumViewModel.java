@@ -38,7 +38,7 @@ public class MuseumViewModel extends ViewModel {
         final Type listType = new TypeToken<ArrayList<Museum>>(){}.getType();
         final List<Museum> museums = new Gson().fromJson(mockMuseum, listType);
         listFiltered.setValue(museums.stream()
-                .filter(museum -> museum.getName().toUpperCase().contains(text.toUpperCase()) || museum.getDescription().toUpperCase().contains(text.toUpperCase()))
+                .filter(museum -> museum.getName().toUpperCase().contains(text.toUpperCase()))
                 .collect(Collectors.toList()));
     }
 

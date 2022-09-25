@@ -1,23 +1,10 @@
 package com.galleria.ui.viewmodel;
 
-import android.content.Intent;
-import android.widget.Toast;
-
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.galleria.R;
-import com.galleria.data.Museum;
 import com.galleria.data.User;
-import com.galleria.ui.HomeActivity;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class LoginViewModel extends ViewModel {
 
